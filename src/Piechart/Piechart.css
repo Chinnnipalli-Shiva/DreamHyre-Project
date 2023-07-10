@@ -1,0 +1,15 @@
+.topproducts img{
+    height: 14px;
+    width: 14px;
+}
+.month-year{
+    display: flex;
+}
+.topproducts{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.4%;
+}
+.topproducts p{
+    font-size: 11px;
+}

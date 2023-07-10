@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Sidenav from "./Sidenav/Sidenav";
+import Topnav from "./Topnav/Topnav.js";
+import Cards from "./Cards/Cards";
+import Graphs from "./Graph/Graph";
+import Piechart from "./Piechart/Piechart";
+import Content from "./Content/Content";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="sidenav">
+        <Sidenav />
+      </div>
+      <div className="main">
+        <div className="topnav">
+          <Topnav />
+        </div>
+        <div className="cards">
+          <Cards />
+        </div>
+
+        
+        <div className="graphs">
+          <Graphs />
+        </div>
+
+
+        <div className="combo">
+          <div className="piechart block">
+            <Piechart />
+          </div>
+          <div className="content block">
+            <Content />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

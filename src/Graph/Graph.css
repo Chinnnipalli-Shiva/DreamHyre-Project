@@ -1,0 +1,19 @@
+.graph{
+  padding: 1% 0 0 1%;
+  display: flex;
+  /* justify-content: center; */
+}
+.activity{
+  width: 12%;
+  margin-top: 10px;
+}
+.line{
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+  padding-left: 0;
+  height: 38vh;
+  width: 70%;
+  padding-left: 6%;
+}
+
+

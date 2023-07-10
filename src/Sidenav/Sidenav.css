@@ -1,0 +1,52 @@
+/* .navbar{
+    background-color: black;
+    height: 100vh;
+    border-radius: 30px;
+    border: 2px solid yellow;
+} */
+
+
+.Board2{
+    color: white;
+    /* background-color: red; */
+    margin: 7vh 0 0 20%;
+    font-size: 40px;
+
+}
+
+.Menu{
+    color: white;
+    margin: 5vh 0 0 20%;
+    list-style-type: none;
+}
+
+.Menu li{
+    line-height: 7vh;
+    /* border:2px solid white; */
+    display:flex;
+}
+li p{
+    /* border:2px solid red; */
+    display :inline;
+    padding:0px;
+    font-size: 16px;
+}
+
+li img{
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid red; */
+    /* background-color: aliceblue; */
+    /* border-radius:50px; */
+    margin: 2.2vh 15px 0 0;
+}
+
+.Submenu{
+    color: white;
+    margin:31vh 0 0 20%;
+    list-style-type: none;
+}
+.Submenu li{
+    margin-top: 7%;
+    font-weight: 300;
+}
