@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T12:12:29.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_Xp7pyYAMgWTLIscGx--" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T12:31:12.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MF0s7IaFWAyrBtdbeUio" version="23.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1737" dy="2828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,12 +38,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="erxJShH6_tcVIzs0yqz9-10" value="program.js&lt;br&gt;&lt;br&gt;_generic(userId, doc )&lt;br&gt;promise = []&lt;br&gt;url = &quot;..../api.run&quot;&lt;br&gt;&lt;br&gt;4 . _getFileType(data.language)&lt;br&gt;&lt;br&gt;body = {&quot;data&quot; : {&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;&quot;className&quot;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;code&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;customInput&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;\&quot;eye\&quot;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;language&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;PYTHON&quot;&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(163, 21, 21);&quot;&gt;&quot;problemId&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(9, 134, 88);&quot;&gt;135,&lt;br&gt;&lt;/span&gt;&quot;fileType&quot; : },&lt;br&gt;&quot;passKey&quot;:&quot;nsCompile}&lt;br&gt;&lt;br&gt;&lt;br&gt;if(custom input){&lt;br&gt;promise.push(request(url,body)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="erxJShH6_tcVIzs0yqz9-10" value="program.js&lt;br&gt;&lt;br&gt;_generic(userId, doc )&lt;br&gt;promise = []&lt;br&gt;url = &quot;..../api.run&quot;&lt;br&gt;&lt;br&gt;4 . _getFileType(data.language)&lt;br&gt;&lt;br&gt;body = {&quot;data&quot; : {&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;&quot;className&quot;: &lt;span style=&quot;color: #0451a5;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;code&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;customInput&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;\&quot;eye\&quot;&quot;&lt;/span&gt;,&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;language&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(4, 81, 165);&quot;&gt;&quot;PYTHON&quot;&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(163, 21, 21);&quot;&gt;&quot;problemId&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(9, 134, 88);&quot;&gt;135,&lt;br&gt;&lt;/span&gt;&quot;fileType&quot; : },&lt;br&gt;&quot;passKey&quot;:&quot;nsCompile}&lt;br&gt;&lt;br&gt;&lt;br&gt;if(custom input){&lt;br&gt;promise.push(request(url,body)}&lt;br&gt;&lt;br&gt;else{ res = await _getTestCases(pr_id)&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-640" y="-2040" width="340" height="320" as="geometry" />
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="erxJShH6_tcVIzs0yqz9-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-790" y="-1800" as="targetPoint" />
+            <mxPoint x="-790" y="-1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-12" value="program.js&lt;br&gt;&lt;br&gt;gives file type extension&lt;br&gt;Eg : python - py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -51,12 +51,12 @@
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-790" y="-1800" as="sourcePoint" />
-            <mxPoint x="-570" y="-1800" as="targetPoint" />
+            <mxPoint x="-785" y="-1840" as="sourcePoint" />
+            <mxPoint x="-565" y="-1840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-710" y="-1800" />
-              <mxPoint x="-680" y="-1800" />
-              <mxPoint x="-570" y="-1800" />
+              <mxPoint x="-705" y="-1840" />
+              <mxPoint x="-675" y="-1840" />
+              <mxPoint x="-565" y="-1840" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -77,18 +77,33 @@
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-750" y="-1754" as="sourcePoint" />
-            <mxPoint x="-570" y="-1754" as="targetPoint" />
+            <mxPoint x="-750" y="-1770" as="sourcePoint" />
+            <mxPoint x="-560" y="-1770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-750" y="-1753" as="sourcePoint" />
+            <mxPoint x="-750" y="-1770" as="sourcePoint" />
             <mxPoint x="-750" y="-1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="erxJShH6_tcVIzs0yqz9-25" value="util.js&lt;br&gt;&lt;br&gt;url =&amp;nbsp;&lt;a title=&quot;http://164.52.204.49:3500/&quot; class=&quot;fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;http://164.52.204.49:3500&quot; aria-label=&quot;Link http://164.52.204.49:3500&quot;&gt;http://164.52.204.49:3500&lt;/a&gt;/api/run&lt;br&gt;&lt;br&gt;request : function (url, data , post ){&lt;br&gt;&lt;br&gt;**sending this url,data,method to request library and giving its response as a promise.}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-800" y="-1640" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="erxJShH6_tcVIzs0yqz9-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="-1740" as="sourcePoint" />
+            <mxPoint x="-260" y="-1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erxJShH6_tcVIzs0yqz9-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="-1740" as="sourcePoint" />
+            <mxPoint x="-260" y="-1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erxJShH6_tcVIzs0yqz9-29" value="program.js&lt;br&gt;&lt;br&gt;_getTestCases(pr_id){&lt;br&gt;&lt;br&gt;get problem information, creating an objecta and adding&lt;br&gt;&lt;br&gt;var obj = {&lt;br&gt;itc : testcaseinp from pr data,&lt;br&gt;otc : testcaseop from pr data }&lt;br&gt;return obj" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-470" y="-1640" width="260" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
